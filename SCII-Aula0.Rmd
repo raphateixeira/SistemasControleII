@@ -1,0 +1,30 @@
+---
+title: "Plano de Ensino"
+subtitle: "Sistemas de Controle II"
+author: "Prof. Dr. Raphael Teixeira"
+institute: "UFPA - CAMTUC - FEE"
+
+output:
+  xaringan::moon_reader:
+    # css: [default, metropolis, metropolis-fonts]
+    css: [default,ufpa-fontes.css, ufpa.css]
+    lib_dir: libs
+    seal: true
+    transition: slower
+    in_header: header.tex
+    nature:
+      #titleSlideClass: ["right", "top"]
+      highlightStyle: github
+      highlightLines: true
+      #highlightLanguage: ["r"]
+      countIncrementalSlides: false
+      ratio: "16:10"
+header-includes:
+   - \usepackage{usetikzlibrary}
+---
+
+# Controle Digital
+
+  - Discretização da malha de controle
+  - Transformada $Z$
+  - ...
